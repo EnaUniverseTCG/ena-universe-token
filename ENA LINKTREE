@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENA Universe Token</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Inclua um arquivo CSS para o estilo -->
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao ENA Universe Token</h1>
+        <img src="logo.png" alt="ENA Universe Logo" />
+    </header>
+    
+    <section id="about">
+        <h2>O que é o ENA Universe TCG?</h2>
+        <p>O ENA Universe Token ($ENA) é o token oficial do ENA Universe TCG, que combina Web3, NFTs e cartas físicas para criar uma experiência de jogo imersiva.</p>
+    </section>
+
+    <section id="links">
+        <h2>Links Importantes</h2>
+        <p><a href="https://github.com/ENAUniverseToken" target="_blank">Veja nosso código no GitHub</a></p>
+        <p><a href="https://linktr.ee/ENAUniverse" target="_blank">Acesse nossa página no Linktree</a></p>
+    </section>
+
+    <section id="roadmap">
+        <h2>Roadmap do Projeto</h2>
+        <p>Acompanhe nosso progresso no desenvolvimento do ENA Universe TCG e na evolução do token ENA.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 ENA Universe. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
