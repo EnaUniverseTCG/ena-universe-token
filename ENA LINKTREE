@@ -3,33 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ENA Universe Token</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Inclua um arquivo CSS para o estilo -->
+    <title>Carta Ember Guardian</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f1f1f1;
+            margin: 0;
+        }
+
+        .card {
+            width: 400px;
+            background-color: #f1f1f1;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            border: 2px solid #ffcc00;
+        }
+
+        .card-header {
+            background-color: #ffcc00;
+            color: white;
+            padding: 10px;
+            font-size: 1.2em;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .card-image img {
+            width: 100%;
+            height: auto;
+        }
+
+        .card-body {
+            padding: 15px;
+            background-color: white;
+            text-align: center;
+        }
+
+        .card-body h3 {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+
+        .card-body p {
+            font-size: 1em;
+            color: #666;
+        }
+
+        .card-footer {
+            padding: 10px;
+            background-color: #ffcc00;
+            text-align: center;
+            color: white;
+            font-size: 1em;
+        }
+
+        .mana-cost {
+            font-weight: bold;
+            color: #ffcc00;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+
+        .stats span {
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Bem-vindo ao ENA Universe Token</h1>
-        <img src="logo.png" alt="ENA Universe Logo" />
-    </header>
-    
-    <section id="about">
-        <h2>O que é o ENA Universe TCG?</h2>
-        <p>O ENA Universe Token ($ENA) é o token oficial do ENA Universe TCG, que combina Web3, NFTs e cartas físicas para criar uma experiência de jogo imersiva.</p>
-    </section>
 
-    <section id="links">
-        <h2>Links Importantes</h2>
-        <p><a href="https://github.com/ENAUniverseToken" target="_blank">Veja nosso código no GitHub</a></p>
-        <p><a href="https://linktr.ee/ENAUniverse" target="_blank">Acesse nossa página no Linktree</a></p>
-    </section>
+<div class="card">
+    <div class="card-header">
+        ASHEN ORDER
+    </div>
+    <div class="card-image">
+        <img src="/mnt/data/Untitled design (2).png" alt="Ember Guardian">
+    </div>
+    <div class="card-body">
+        <h3>EMBER GUARDIAN</h3>
+        <p>A mechanical sentinel that grants +2 Attack to an adjacent ally. If used with an Ashen Order character, it also grants "First Strike" (attacks first in combat).</p>
+        <div class="stats">
+            <span>Defense: 4</span>
+            <span>Attack: 2</span>
+        </div>
+        <div class="mana-cost">
+            Mana Cost: 3 ENA
+        </div>
+    </div>
+    <div class="card-footer">
+        Common | Support Unit
+    </div>
+</div>
 
-    <section id="roadmap">
-        <h2>Roadmap do Projeto</h2>
-        <p>Acompanhe nosso progresso no desenvolvimento do ENA Universe TCG e na evolução do token ENA.</p>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 ENA Universe. Todos os direitos reservados.</p>
-    </footer>
 </body>
 </html>
